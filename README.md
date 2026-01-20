@@ -1,2 +1,19 @@
 # daily-dev-journal
-My daily learning journal for Java, DSA, Web Dev, and Projects of my own
+
+This repository contains my **daily learning journal** as a CSE student.
+
+##  What I track here
+- Programming concepts (C, DSA, Web Dev)
+- Code snippets & examples
+- Mistakes and fixes
+- Daily learnings and reflections
+
+
+##  Goal
+To learn consistently, document clearly, and improve every day.
+
+---
+
+📅 Started on: January 2026
+
+
