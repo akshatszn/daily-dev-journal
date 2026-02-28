@@ -1,0 +1,72 @@
+# Dev Journal — Day 02
+
+## Topics
+
+* ECMAScript
+* Introduction to HTTP Protocol
+* HTTP Server Basics
+* Started Full-Stack Development Notes
+
+## ECMAScript
+
+ECMAScript is the official specification for the JavaScript language.
+It defines the standards and features that JavaScript implementations should follow.
+
+JavaScript is the language used by developers, while ECMAScript defines how the language should behave.
+
+Many modern JavaScript features come from newer ECMAScript versions such as ES6 (ECMAScript 2015), including:
+
+* let and const
+* arrow functions
+* classes
+* promises
+* async/await
+
+## HTTP Protocol
+
+HTTP stands for HyperText Transfer Protocol.
+It is the protocol used for communication between a client (usually a browser) and a server.
+
+The basic flow is:
+
+1. Client sends an HTTP request
+2. Server processes the request
+3. Server sends an HTTP response
+
+HTTP is stateless, which means the server treats each request independently and does not automatically remember previous interactions.
+
+## HTTP Server
+
+An HTTP server is a program that listens for incoming HTTP requests and sends responses back to the client.
+
+It can serve web pages, APIs, files, or other data.
+
+Example of a simple HTTP server in Node.js:
+
+```javascript
+const http = require("http");
+
+const server = http.createServer((req, res) => {
+  res.write("Hello from server");
+  res.end();
+});
+
+server.listen(3000);
+```
+
+This server listens on port 3000 and sends a response when a request is received.
+
+## Progress
+
+Learned what ECMAScript is and how it relates to JavaScript.
+Started learning the HTTP protocol and client-server communication.
+Understood the basic idea of an HTTP server.
+Started writing notes for full-stack development.
+
+## Next Steps
+
+* Learn HTTP request methods (GET, POST, PUT, DELETE)
+* Understand HTTP status codes
+* Study request and response headers
+* Complete HTTP fundamentals
+* Start learning Express.js
