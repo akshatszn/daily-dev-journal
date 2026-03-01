@@ -1,0 +1,138 @@
+# Dev Journal — day 3
+
+Dev Journal : HTTP Server and HTTP protocol rules
+Coding Hrs : 2 
+Review : Do it faster. I take up too much time on small topics. Do more in less time.
+
+## Topics
+
+* HTTP Protocol
+* HTTP Server
+* Difference between HTTP Protocol and HTTP Server
+* How HTTP connects the client to the backend()
+
+* DSA started
+* JAVA boiler plate code
+* Datatypes in JAVA 
+
+---
+
+## HTTP Protocol
+
+HTTP (HyperText Transfer Protocol) is the communication protocol used for data transfer on the web. It defines the rules that allow a client and a server to communicate.
+
+In most web applications, the client is a browser and the server is a backend application.
+
+The typical communication flow is:
+
+1. A client sends an HTTP request to a server.
+2. The server processes the request.
+3. The server returns an HTTP response.
+
+HTTP is stateless, meaning each request is treated independently and the server does not automatically remember previous requests.
+
+An HTTP request usually contains:
+
+* Method (GET, POST, PUT, DELETE)
+* URL
+* Headers
+* Optional body (data sent to the server)
+
+Example request:
+
+```
+GET /users HTTP/1.1
+Host: example.com
+```
+
+The server then sends a response containing a status code, headers, and possibly data.
+
+Example response:
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json
+```
+
+---
+
+## HTTP Server
+
+An HTTP server is a program that listens for incoming HTTP requests and sends back HTTP responses.
+
+It acts as the interface between the internet and the backend application logic.
+
+An HTTP server can:
+
+* Receive requests from clients
+* Process them or forward them to backend logic
+* Send responses back to the client
+
+In Node.js, a simple HTTP server can be created using the `http` module.
+
+Example:
+
+```javascript
+const http = require("http");
+
+const server = http.createServer((req, res) => {
+  res.write("Hello from server");
+  res.end();
+});
+
+server.listen(3000);
+```
+
+This server listens on port 3000 and responds whenever a request is received.
+
+---
+
+## Difference Between HTTP Protocol and HTTP Server
+
+| HTTP Protocol                              | HTTP Server                              |
+| ------------------------------------------ | ---------------------------------------- |
+| A set of rules for communication           | A program that follows those rules       |
+| Defines how requests and responses work    | Handles the requests and sends responses |
+| Used by clients and servers to communicate | Runs on a machine and processes requests |
+
+In simple terms, the HTTP protocol defines **how communication should happen**, while an HTTP server **implements that communication**.
+
+---
+
+## How HTTP Connects to the Backend
+
+When a user interacts with a website, the process generally works as follows:
+
+1. The client (browser) sends an HTTP request.
+2. The request reaches the HTTP server.
+3. The HTTP server passes the request to the backend application logic.
+4. The backend processes the request (for example, querying a database or performing some computation).
+5. The backend returns the result to the server.
+6. The HTTP server sends the HTTP response back to the client.
+
+Example flow:
+
+Client → HTTP Request → HTTP Server → Backend Logic → Database
+Database → Backend Logic → HTTP Server → HTTP Response → Client
+
+In this way, HTTP acts as the communication bridge between the frontend (client) and the backend.
+
+---
+
+## Progress
+
+Studied the HTTP protocol and how web communication works.
+Understood what an HTTP server is and how it handles requests.
+Learned the difference between the HTTP protocol and an HTTP server.
+Understood how HTTP connects clients to backend systems.
+
+---
+
+## Next Steps
+
+* Learn Express.js
+* Understand routing in Express
+* Build a simple API using Express
+* Learn request and response handling in Express
+* Continue DSA in Java with variables, input/output, and basic problem solving
+
