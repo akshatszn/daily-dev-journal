@@ -1,0 +1,102 @@
+# Dev Journal — Day 04
+
+## Topics
+
+* Creating a basic HTTP server in Node.js
+* Introduction to Express
+* Role of Express in backend development
+* Planning to implement server logic using Express
+* Reflection on DSA consistency
+
+---
+
+## Creating a Basic HTTP Server
+
+Learned how to create a basic HTTP server in Node.js using the built-in `http` module.
+
+The server listens on a specific port and sends a response when it receives a request.
+
+Example:
+
+```javascript
+const http = require("http");
+
+const server = http.createServer((req, res) => {
+  res.write("Server running");
+  res.end();
+});
+
+server.listen(3000);
+```
+
+In this example, the server listens on **port 3000** and responds whenever a request is received.
+
+Key ideas understood:
+
+* A server listens for requests on a specific port.
+* When a request arrives, a callback function handles the request and response.
+* The response is sent back to the client using the response object.
+
+---
+
+## Introduction to Express
+
+Express is a web framework for Node.js that simplifies the process of building servers and APIs.
+
+It provides tools that make it easier to handle routes, requests, and responses compared to using the native `http` module.
+
+Express helps developers:
+
+* Build web servers faster
+* Handle routes more easily
+* Manage request and response objects
+* Organize backend logic in a structured way
+
+Basic example of an Express server:
+
+```javascript
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Hello from Express");
+});
+
+app.listen(3000);
+```
+
+Express simplifies server creation and routing compared to the basic HTTP module.
+
+---
+
+## Understanding the Role of Express
+
+Express acts as a layer on top of Node.js that makes backend development easier.
+
+Instead of manually handling every request using the `http` module, Express allows defining routes and logic more clearly.
+
+Example concept:
+
+* The client sends a request
+* Express receives the request
+* The defined route handles the request
+* The server sends the response
+
+This structure makes it easier to build APIs and backend services.
+
+---
+
+## Reflection
+
+Did not practice DSA today. Need to make DSA a consistent part of the daily learning routine.
+
+Maintaining regular practice in DSA is important for improving problem-solving skills and preparing for interviews.
+
+---
+
+## Next Steps
+
+* Start implementing server logic in an actual backend application
+* Understand functions and usage of the `app` object in Express
+* Learn how routes and middleware work in Express
+* Resume DSA practice and make it a regular habit
