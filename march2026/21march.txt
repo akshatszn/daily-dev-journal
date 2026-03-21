@@ -1,0 +1,10 @@
+21 march 2026 
+
+tryna continue...
+
+// fullstack dev
+created a todo-app and hosted it on a server, tried to understand base code logic
+
+//DSA Java
+doing calculations by taking inputs from user.
+type conversions in datatypes.

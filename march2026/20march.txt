@@ -1,0 +1,15 @@
+20 march 2026
+
+Been a while ik, 
+What we learnt today:
+
+//fullstack
+Git bash terminal and commands to operate through files.
+How multipurpose it is.
+awk can be used for text processing and report generation.
+
+//DSA Java
+learnt bout scanner function and taking inputs in java.
+calculating sum by taking inputs from user. 
+
+-----------------------
