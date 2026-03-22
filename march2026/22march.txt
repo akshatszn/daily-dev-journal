@@ -1,0 +1,13 @@
+22 march 2026
+
+// lazy
+
+// DSA-java
+type casting
+type conversions
+type promotion
+Practice question set of Variables-Datatypes
+
+
+// fullstack
+nothing. gotta take out hours for this.
