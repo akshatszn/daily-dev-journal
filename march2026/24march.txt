@@ -1,0 +1,10 @@
+24 march 2026\
+
+//fullstack
+making a server for a hospital with 4 different routes.
+handling server from browser and postman. 
+sending and handling different requests
+
+//DSA Java
+completed variables-datatypes assignment
+started practice set of operators
