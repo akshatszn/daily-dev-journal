@@ -1,0 +1,17 @@
+25 march 2026
+
+//fullstack
+wrote a bit more logic on hospital server.
+and completed that lecture.
+
+gotta complete the assignments of weekly and start week 3 simultaneously.
+assignments are time consuming.
+
+midsems going on tgoh pace might slow down.
+
+
+//dsa-java
+operators assignment done, was bare-easy.
+conditional statements lecs done till 5.
+difference between multiple ifs and multiple else ifs.
+

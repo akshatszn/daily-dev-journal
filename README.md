@@ -3,7 +3,7 @@
 This repository contains my **daily learning journal** as a CSE student.
 
 ##  What I track here
-- Programming concepts (Java, DSA, Web Dev)
+- Programming concepts i learnt that day.
 - Code snippets & examples
 - Mistakes and fixes
 - Daily learnings and reflections
